@@ -22,7 +22,7 @@ In case you want to set loop with 5 seconds interval.
 
 ```js
 var managedLoop =
-  new LoopManager(
+  new IntervalLoopManager(
     yoruFunction,
     { interval: 5000 }
   )
@@ -31,7 +31,7 @@ var managedLoop =
 or
 
 ```js
-var managedLoop = new LoopManager( yourFunction )
+var managedLoop = new IntervalLoopManager( yourFunction )
 managedLoop.start({ interval: 5000 })
 ```
 
