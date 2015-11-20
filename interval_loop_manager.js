@@ -1,3 +1,10 @@
+//
+// Interval Loop Manager
+// https://github.com/asukiaaa/interval_loop_manager
+// Created by asukiaaa.
+// 2015.11.20
+//
+
 var intervalLoopManager = function(functionToLoop, options) {
   this.functionToLoop = functionToLoop
   this.assignValues(options)
