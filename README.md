@@ -35,6 +35,24 @@ var managedLoop = new LoopManager( yourFunction )
 managedLoop.start({ interval: 5000 })
 ```
 
+### Stop the loop
+
+```js
+managedLoop.stop()
+```
+
+### Restart the loop
+
+```js
+managedLoop.restart()
+```
+
+or
+
+```js
+managedLoop.start()
+```
+
 ### Change the interval
 
 Ways to change the interval to 7 seconds.
@@ -49,24 +67,6 @@ In case you allow current loop to finish.
 
 ```js
 managedLoop.assignValues({ interval: 7000 })
-```
-
-### Stop the loop
-
-```js
-managedLoop.stop()
-```
-
-### Restart the loop
-
-```js
-managedLoop.start()
-```
-
-### Restart the loop
-
-```js
-managedLoop.restart()
 ```
 
 ### Detect whether the loop is running or not
