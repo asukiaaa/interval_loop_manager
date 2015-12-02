@@ -1,12 +1,12 @@
 # Interval Loop Manager
 A jQuery class to manage a loop with some interval.
 
-## Purpose
+# Purpose
 I want set a loop with some interval.
 
 Sometimes, I want to stop the loop or change the interval.
 
-## How to use
+# How to use
 
 I explanation interval loop manager by setting a loop of the following function.
 
@@ -16,7 +16,7 @@ function yourFunction() {
 }
 ```
 
-### Start a loop
+## Start a loop
 
 In case you want to set loop with 5 seconds interval.
 
@@ -35,13 +35,13 @@ var managedLoop = new IntervalLoopManager( yourFunction )
 managedLoop.start({ interval: 5000 })
 ```
 
-### Stop the loop
+## Stop the loop
 
 ```js
 managedLoop.stop()
 ```
 
-### Restart the loop
+## Restart the loop
 
 ```js
 managedLoop.restart()
@@ -53,7 +53,7 @@ or
 managedLoop.start()
 ```
 
-### Change the interval
+## Change the interval
 
 Ways to change the interval to 7 seconds.
 
@@ -69,7 +69,7 @@ In case you allow current loop to finish.
 managedLoop.assignValues({ interval: 7000 })
 ```
 
-### Detect whether the loop is running or not
+## Detect whether the loop is running or not
 
 ```js
 if ( managedLoop.isPresent() ) {
@@ -79,5 +79,8 @@ if ( managedLoop.isPresent() ) {
 }
 ```
 
-## References
+# License
+MIT.
+
+# References
 http://stackoverflow.com/questions/1280263/changing-the-interval-of-setinterval-while-its-running
