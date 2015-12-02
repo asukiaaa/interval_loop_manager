@@ -1,9 +1,9 @@
-//
-// Interval Loop Manager
-// https://github.com/asukiaaa/interval_loop_manager
-// Created by asukiaaa.
-// 2015.11.20
-//
+/*
+ * Interval Loop Manager
+ * https://github.com/asukiaaa/interval_loop_manager
+ * MIT License
+ * By asukiaaa.
+ */
 
 var IntervalLoopManager = function(functionToLoop, options) {
   this.functionToLoop = functionToLoop
