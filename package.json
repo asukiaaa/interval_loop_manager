@@ -1,0 +1,26 @@
+{
+  "name": "jquery-interval-loop-manager",
+  "version": "1.0.0",
+  "description": "A Manager deals interval loops.",
+  "main": "interval_loop_manager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asukiaaa/interval_loop_manager.git"
+  },
+  "keywords": [
+    "interval",
+    "loop",
+    "jquery",
+    "timeout",
+    "clearTimeout"
+  ],
+  "author": "asukiaaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asukiaaa/interval_loop_manager/issues"
+  },
+  "homepage": "https://github.com/asukiaaa/interval_loop_manager#readme"
+}
