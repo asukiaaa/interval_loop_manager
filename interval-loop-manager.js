@@ -49,3 +49,5 @@ IntervalLoopManager.prototype.isPresent = function(options) {
   return ( typeof this.timeout !== 'undefined' &&
            this.timeout != null )
 }
+
+module.exports = IntervalLoopManager
