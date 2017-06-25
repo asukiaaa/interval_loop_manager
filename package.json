@@ -2,7 +2,7 @@
   "name": "jquery-interval-loop-manager",
   "version": "1.0.0",
   "description": "A Manager deals interval loops.",
-  "main": "interval_loop_manager.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
