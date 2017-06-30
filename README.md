@@ -1,5 +1,5 @@
 # Interval Loop Manager
-A jQuery class to manage a loop with some interval.
+A class to manage a loop with some interval.
 
 # Purpose
 I want set a loop with some interval.

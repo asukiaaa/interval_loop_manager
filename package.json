@@ -1,5 +1,5 @@
 {
-  "name": "jquery-interval-loop-manager",
+  "name": "interval-loop-manager",
   "version": "1.0.0",
   "description": "A Manager deals interval loops.",
   "main": "index.js",
