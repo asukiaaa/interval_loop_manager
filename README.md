@@ -72,15 +72,15 @@ managedLoop.assignValues({ interval: 7000 })
 ## Detect whether the loop is running or not
 
 ```js
-if ( managedLoop.isPresent() ) {
-  console.log('Looping.')
+if ( managedLoop.isRunning() ) {
+  console.log('Loop is running.')
 } else {
-  console.log('No loop.')
+  console.log('Loop is not running.')
 }
 ```
 
 # License
-MIT.
+MIT
 
-# References
+# Reference
 http://stackoverflow.com/questions/1280263/changing-the-interval-of-setinterval-while-its-running

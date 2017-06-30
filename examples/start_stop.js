@@ -10,9 +10,9 @@ const sampleFunction = () => {
 const managedLoop = new IntervalLoopManager(sampleFunction, {interval: 500})
 
 setTimeout(() => {
-  console.log('before stop. isPresent: ', managedLoop.isPresent())
+  console.log('before stop. isRunning: ', managedLoop.isRunning())
   managedLoop.stop()
-  console.log('after stop. isPresent: ', managedLoop.isPresent())
+  console.log('after stop. isRunning: ', managedLoop.isRunning())
 }, 2000)
 
 setTimeout(() => {
