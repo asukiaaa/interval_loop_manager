@@ -8,6 +8,11 @@ Sometimes, I want to stop the loop or change the interval.
 
 # How to use
 
+## Install
+```
+npm install interval-loop-manager --save
+```
+
 ## Setup
 
 Require interval-loop-manager.
