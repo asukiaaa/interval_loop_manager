@@ -1,6 +1,6 @@
 {
   "name": "interval-loop-manager",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Manager deals interval loops.",
   "main": "index.js",
   "scripts": {
