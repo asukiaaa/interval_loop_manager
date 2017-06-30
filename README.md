@@ -8,10 +8,18 @@ Sometimes, I want to stop the loop or change the interval.
 
 # How to use
 
-I explanation interval loop manager by setting a loop of the following function.
+## Setup
+
+Require interval-loop-manager.
 
 ```js
-function yourFunction() {
+const IntervalLoopManager = require('interval-loop-manager')
+```
+
+I explain interval loop manager by setting a loop of the following function.
+
+```js
+const yourFunction = () => {
   // some process
 }
 ```
@@ -21,7 +29,7 @@ function yourFunction() {
 In case you want to set loop with 5 seconds interval.
 
 ```js
-var managedLoop =
+const managedLoop =
   new IntervalLoopManager(
     yoruFunction,
     { interval: 5000 }
